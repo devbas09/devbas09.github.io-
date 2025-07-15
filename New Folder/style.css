@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-image: url("Back.jpg");
+    background-size:
+cover;
+    background-position:
+center;
+    background-repeat:
+no-repeat);
+    height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color:rgb(195, 195, 228);
+  height: 35px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-top: -30px;
+  
+  }
+
+.menu li {
+  margin:0 20px;
+  
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  
+  transition:transform 1.5s;
+  
+}
+
+.menu li a:hover {
+  color:blue;
+  transform:scale(1.5);
+}
+
+.section {
+  color: white;
+  margin-left: 720px;
+  margin-top: 200px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-top: -120px;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  color: white;
+  box-shadow: 0 4px 30px rgba 0, 0, 0, 0.3;
+  -webkit-backdrop-filter: blur(10px);
+  transion: 0.3s;
+  margin-left: 600px;
+  margin-top: -370px;
+}
+
+.section1 {
+  color:white;
+  margin-top: 600px;
+  margin-left: 400px;
+}
+
+.box1 {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  width: 700px;
+  height: 300px;
+  color: white;
+  box-shadow: 0 4px 30px rgba 0, 0, 0, 0.3;
+  -webkit-backdrop-filter: blur(10px);
+  transion: 0.3s;
+  margin-left: -100px;
+  margin-top: -230px;
+}
+
+.section2 {
+  text-align: center;
+  color: white;
+  margin-top: 500px;
+  margin-left: 40px;
+  
+}
+
+.section2:hover{
+    transform: scale(1.05);
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
+}
+
+.box2 {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  width: 800px;
+  height: 300px;
+  color: white;
+  box-shadow: 0 4px 30px rgba 0, 0, 0, 0.3;
+  -webkit-backdrop-filter: blur(10px);
+  transion: 0.3s;
+  margin-left: 200px;
+  margin-top: -290px;
+}
+
+.section3 {
+  
+  color: white;
+  text-align: center;
+  margin-top: 600px;
+}
+
+.text {
+  display:flex;
+  justify-content: center;
+  margin:0 20px;
+}
+
+.section3:hover {
+    transform: scale(1.05);
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
+}
+
+.section4 {
+  color: white;
+  margin-top: 215px;
+}
+
+.image1 {
+  width: 200;
+  height: 200;
+  border-radius: 50%;
+}
+
+.image1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
+}
